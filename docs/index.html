@@ -6,12 +6,13 @@
 <link rel="icon" type="image/png" href="assets/icons/icon_talisman.png">
 <title>MH4U Armor Skills Explained</title>
 <style>
-/* The look of the sibling MH4U apps (Collection Tracker, Weapon Trees...): the MHFU game font, a grey title
-   bar over the titlebar texture, dark rocky panels, thin translucent lines. One dark look by design. */
+/* The look of the sibling MH4U apps (Collection Tracker, Weapon Trees...): the MHFU game font, a title bar over
+   the titlebar texture, dark rocky panels, thin translucent lines. One fixed theme: Gore Magala purple. */
 @font-face { font-family: 'MHFU'; src: url('fonts/mhfu_font.ttf') format('truetype'); font-display: swap; }
 :root {
-  --bg: #3e3e3e; --content-bg: #0e0d11; --panel-bg: #141418; --bg2: #333;
-  --accent: #7a7a7a; --accent-hover: #9a9a9a;
+  /* Gore Magala (#1F0B57, the GU apps' swatch), shaded the way the sibling apps' applyTheme does it */
+  --bg: #16083d; --content-bg: #110630; --panel-bg: #0c0423; --bg2: #1d0a53;
+  --accent: #16083d; --accent-hover: #5624e3;
   --control-bg: #141414; --control-bg-hover: #181818;
   --text: #f3f3f3; --line: #ffffff1f; --line-soft: #ffffff0d;
   --positive: #7fdc7f; --negative: #f07070; --gold: #ffd24a; --gold-line: #6a5a30;
